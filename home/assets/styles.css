@@ -1,0 +1,289 @@
+  
+  
+body{
+  height: 1000px;   /*Quitar si se quiere que la pagina crezca pero la barra lateral no se sigue expandiendo*/
+  display: flex;
+  flex-direction: column;
+}
+
+ aside {
+    width: 25%;
+    max-width: 210px;
+    float: left; /* Flotar a la izquierda */
+    margin-right: 0;
+    flex: 1;
+    background: linear-gradient(to bottom , #5edf02,#93f74c);
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+    height: 100%;
+  }
+
+  main{
+    width: 100%;
+  }
+
+ 
+  
+  .dark {
+    background: linear-gradient(to bottom , black,#327700) !important;  
+    transition: background-color 0.5s ease; /* Transición suave al cambiar el color de fondo */
+  }
+  .dark1 {
+    background: linear-gradient(to bottom , #327700,#3b8e00) !important;  
+    transition: background-color 0.5s ease; /* Transición suave al cambiar el color de fondo */
+  }
+
+  .dark4, .Pdark{
+    background: #192229 !important;
+    color: white;
+    transition: background-color 0.5s ease; /* Transición suave al cambiar el color de fondo */
+  }
+
+  .dark4{
+    border-color: white !important;  
+  }
+
+
+  .darkAc{
+    transition: background-color 0.5s ease; /* Transición suave al cambiar el color de fondo */
+      --bs-accordion-color: var(--bs-body-color);
+      --bs-accordion-bg: #192229 !important;
+      --bs-accordion-border-color: var(--bs-border-color);
+      --bs-accordion-border-width: 1px;
+      --bs-accordion-border-radius: 0.375rem;
+      --bs-accordion-inner-border-radius: calc(0.375rem - 1px);
+      --bs-accordion-btn-padding-x: 1.25rem;
+      --bs-accordion-btn-padding-y: 1rem;
+      --bs-accordion-btn-color: var(--bs-body-color);
+      --bs-accordion-btn-bg: var(--bs-accordion-bg);
+      --bs-accordion-btn-icon: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='var%28--bs-body-color%29'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e);
+      --bs-accordion-btn-icon-width: 1.25rem;
+      --bs-accordion-btn-icon-transform: rotate(-180deg);
+      --bs-accordion-btn-icon-transition: transform 0.2s ease-in-out;
+      --bs-accordion-btn-active-icon: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230c63e4'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e);
+      --bs-accordion-btn-focus-border-color: #fbfbfb;
+      --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+      --bs-accordion-body-padding-x: 1.25rem;
+      --bs-accordion-body-padding-y: 1rem;
+      --bs-accordion-active-color: #03327a !important;
+      --bs-accordion-active-bg: #2c3a44 !important;
+      color: white !important;  
+
+  }
+
+  .DbtnD{
+      position: relative;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      font-size: 1rem;
+      color: #ffffff;
+      text-align: left;
+      background-color: var(--bs-accordion-btn-bg);
+      border: 0;
+      border-radius: 0;
+      overflow-anchor: none;
+      transition: var(--bs-accordion-transition);
+  
+  }
+  
+  .dark2{
+    background: linear-gradient(to bottom , #2a6400,#225200) !important; 
+    transition: background-color 0.5s ease; /* Transición suave al cambiar el color de fondo */ 
+
+  }
+  .dark3{
+    background: #4e6b38 !important;  
+    transition: background-color 0.5s ease; /* Transición suave al cambiar el color de fondo */
+
+  }
+
+  .btn-outline-success {
+    --bs-btn-color: #fafafa;
+    --bs-btn-border-color: #ffffff;
+    --bs-btn-hover-border-color: #ffffff;
+  }
+  .card-header{ 
+    background: linear-gradient(to top , #7ffa94,#93f74c);
+  }
+
+  .imagen-circular{
+    
+    margin: 10px;
+    border-radius: 100%;
+    height: 150px;
+    border: 1px solid;
+    width: 150px;
+    
+  }
+
+
+  .bg-custom {
+    background-color: rgb(255, 255, 255); 
+    color: #000000; 
+  }
+
+
+  #navbar{
+    background: linear-gradient(to bottom , #3C8C03, #5edf02);
+  }
+
+
+  footer {
+    padding: 0%;
+    margin: 0%; 
+    margin: 0;
+    flex-shrink: 0;
+    background-color: #f2f2f2;
+  }
+  #calendar {
+    width: auto;
+    margin: auto;
+  }
+
+  #calendar1 {
+    float: right;
+    margin: 40px;
+  }
+  
+  #calendar .header {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  #calendar table {
+    width: auto;
+  }
+  
+  #calendar th,
+  #calendar td {
+    padding: 5px;
+    text-align: center;
+  }
+  
+  #calendar .event {
+    background-color: #ffd365;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+
+  .navbar {
+    --bs-navbar-brand-font-size: 50px;
+    --bs-navbar-brand-color: white;
+    --bs-navbar-brand-hover-color: white;
+  }
+
+
+
+.cont{
+  margin-left: 16.25%;
+  width: 83.75%;
+  height: 50%;
+}
+
+.cont2D{
+  float: right;
+  width: 50%;
+  height: 90%;
+}
+
+.cont2I{
+  float: left;
+  width: 50%;
+  height: 90%;
+}
+
+.contF{
+  width: 100%;
+  height: 50%;
+}
+
+#margenes{
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.coments{
+  margin-top: 20px;
+}
+
+#por{
+  margin-left: 5%;
+}
+
+
+@media (max-width: 700px) {
+  #eee{
+       margin-top: 35%;
+       margin-left:5%;
+      z-index:2;
+ }
+}
+.table {
+  text-align: right;
+}
+
+.seccion-perfil-usuario .perfil-usuario-header {
+  width: 100%;
+
+  background: linear-gradient(#7ffa99, transparent);
+  margin-bottom: 1.25rem;
+  border-radius: 10px;
+}
+
+.nombre {
+  margin-bottom: 1.25rem;
+  text-align: center;
+ 
+}
+
+.docum {
+  margin-bottom: 1.25rem;
+  text-align: center;
+  color: #03327a;
+ 
+}
+
+.seccion-perfil-usuario  .fotoperfil {
+  background-color: transparent;
+  border: 2px solid #000000;
+  border-radius: 7px;
+  margin-left: 80%;
+  margin-top: -20px;
+}
+#perfil
+{
+  margin-left: 44%
+}
+.correo {
+  margin-bottom:1.25rem;;
+  text-align: center;
+}
+
+.card-img {
+  max-width: 80%;
+  max-height: 80%;
+  margin-left: 10%;
+}
+.card-texto
+{
+  margin-left: 10%;
+  
+}
+.card {
+  width: 90%; 
+  margin: auto; 
+  
+}
+
+.img {
+  width: 100px;
+  height: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+

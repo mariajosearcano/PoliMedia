@@ -1,0 +1,118 @@
+.navbar {
+  opacity: 0.9;
+  font-family: 'Prompt', sans-serif;
+}
+
+.navbar .nav-item .nav-link {
+  color: #000000;
+  font-family: 'Prompt', sans-serif;
+}
+
+.main-header {
+  position: relative;
+  background-size: cover;
+  min-height: 550px;
+  font-family: 'Ubuntu', sans-serif;
+  --l0: calc(100% - 1px), #c3e5ec;
+  --l1: 0% 25%, #0000 0% 50%;
+  --g: repeating-conic-gradient(#c3e5ec var(--l1));
+  background: var(--g), radial-gradient(closest-side, transparent var(--l0)), linear-gradient(90deg, rgba(0, 0, 0, 0) 0 25%, currentcolor 0 75%, #84D510 0), repeating-conic-gradient(#C5E402 var(--l1)), var(--g), radial-gradient(closest-side, currentcolor var(--l0));
+  background-size: 9.375em 9.375em, 4.6875em 4.6875em, 9.375em, 18.75em 18.75em, 0.75em 0.75em, 0.375em 0.375em;
+  color: #31334a;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.background-overlay {
+  background: #31334abe;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.btn.btn-outline-secondary.btn-lg.text-white:hover {
+  background-color: #31334a;
+  color: #fff;
+}  
+
+.form-control, .btn {
+  border-radius: 0;
+  font-family: 'Prompt', sans-serif;
+}
+
+.team, footer {
+  background: #31334a;
+  font-family: 'Prompt', sans-serif;
+}
+
+#img {
+  width: 120px;
+}
+
+#ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: auto;
+}
+
+#div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#h1 {
+  font-size: 70px;
+  font-family: 'Dancing Script', cursive;
+}
+
+
+#btn {
+  background-color: #fff;
+  color: #31334a;
+}
+
+#btn:hover {
+  background-color: #31334a;
+  color: #fff;
+}
+
+.active:hover {
+  border-bottom: 2px solid #31334a;
+  transition: border-bottom 2s ease-in-out;
+}
+
+i {
+  color: #31334a;
+}
+
+.navbar-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: top 0.3s;
+}
+
+.navbar-container.hide {
+  top: -100px;
+}
+
+.navbar-container:hover {
+  top: 0;
+}
+
+.card {
+  background-color: #dcf0f4;
+}
+

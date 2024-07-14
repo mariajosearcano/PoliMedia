@@ -1,0 +1,18 @@
+$u: .375em;
+$s: 50*$u;
+$d: .25*$s;
+
+html {
+  --l0: calc(100% - 1px), #fff;
+  --l1: 0% 25%, #0000 0% 50%;
+  --g: repeating-conic-gradient(#fff var(--l1));
+  background: 
+    var(--g), 
+    radial-gradient(closest-side, transparent var(--l0)), 
+    linear-gradient(90deg, #0000 0 25%, currentcolor 0 75%, #d6af46 0), 
+    repeating-conic-gradient(#88b6b4 var(--l1)), 
+    var(--g), 
+    radial-gradient(closest-side, currentcolor var(--l0));
+  background-size: 2*$d 2*$d, $d $d, .5*$s, $s $s, 2*$u 2*$u, $u $u;
+  color: #31334a
+}

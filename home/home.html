@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>PoliMedia</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" type="image/png" href="assets/images/logo3.png">
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/styles.css">
+</head>
+
+<body>
+  <header>
+    <!-- place navbar here -->
+    <div id="navbar">
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand"> <img src="./assets/images/logo.png" alt="Imagen" height="auto" width="190px">
+            PoliMedia </a>
+          <form class="d-flex" role="search">
+            <input id="bus" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content">
+
+    <aside id="aside-content">
+      <!-- Contenido lateral -->
+      <div class="container-fluid">
+        <hr>
+        <img src="./assets/images/persona.jpg" id="foto" class="imagen-circular"
+          alt="...">
+        <h5 id="nombre" class="nombre">Name </h5>
+        <h id="nombre" class="carrera">Carrera </h>
+        <br>
+        <hr>
+        <button type="button" class="btn" id="asesoria">Asesorías</button>
+        <hr>
+        <button type="submit" class="btn" id="formulario" onclick="window.location.href='Formulario.html'">Editar
+          perfil</button>
+        <hr>
+        <button type="button" class="btn" id="calendario">Calendario</button>
+
+        <hr>
+        <button type="button" class="btn" id="liveToastBtn">Cambiar estilo</button>
+        <hr>
+        <button type="submit" class="btn btn-primary" id="liveToastBtn  onclick="window.location.href="../start/index.html#team">Cerrar sesión</button>
+        <hr>
+
+
+      </div>
+    </aside>
+
+
+
+    <div class="cont">
+      <div class="card border-dark mb-3 cont2D" style="max-width: 20rem;" id="margenes">
+        <div class="card-header" id="calendarH">Calendario</div>
+        <div class="card-body" id="calendarB">
+          <div id="calendar"></div>
+        </div>
+      </div>
+
+      <div class="container-fluid cont" id="por">
+
+        <br>
+        <h1>Asesorias</h1>
+
+        <div class="accordion cont2I" id="accordionExample">
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button id="btn1" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                Calculo diferencial
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body grid">
+                <div>
+                  <img src="assets/images/mathLogo.png" alt="" class="img">
+                </div>
+                <div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><strong>Profesor: </strong>Bertulfo</li>
+                    <li class="list-group-item"><strong>Lugar: </strong>P17</li>
+                    <li class="list-group-item"><strong>Hora: </strong>8:00 a.m</li>
+                    <li class="list-group-item grid"><button type="button" class="btn btn-light">Matricular</button></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button id="btn3" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Algebra lineal
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body grid">
+                <div>
+                  <img src="assets/images/algebraLogo.png" alt="" class="img">
+                </div>
+                <div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><strong>Profesor: </strong>Daniel</li>
+                    <li class="list-group-item"><strong>Lugar: </strong>P17</li>
+                    <li class="list-group-item"><strong>Hora: </strong>10:00 a.m</li>
+                    <li class="list-group-item grid"><button type="button" class="btn btn-light">Matricular</button></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button id="btn2" class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Fisica del movimiento
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body grid">
+                <div>
+                  <img src="assets/images/physicsLogo.png" alt="" class="img">
+                </div>
+                <div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><strong>Profesor: </strong>Morales</li>
+                    <li class="list-group-item"><strong>Lugar: </strong>P17</li>
+                    <li class="list-group-item"><strong>Hora: </strong>6:00 a.m</li>
+                    <li class="list-group-item grid"><button type="button" class="btn btn-light">Matricular</button></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="cont" id="eee">
+        <input type="text" id="comment-input" placeholder="Agregar comentario">
+        <input type="number" id="rating-input" placeholder="Calificación">
+        <button id="add-button">Agregar</button>
+        <table class="table" id="comments-table">
+          <thead>
+            <tr>
+              <th scope="col">Comentario</th>
+              <th scope="col">Calificación</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+
+
+
+      <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+          <div class="toast-header">
+            <strong class="me-auto">Cambiar estilo</strong>
+            <small>Justo ahora</small>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+          </div>
+          <div class="toast-body">
+            <button id="color-toggle-btn">Cambiar color</button>
+
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+  </main>
+
+  <footer class="bg-custom py-4" id="pie">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h5>Información de contacto</h5>
+          <p>Teléfono: 123-456-7890</p>
+        </div>
+        <div class="col-md-3">
+          <h5>Enlaces útiles</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="../start/index.html#about">Acerca de nosotros</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="../start/index.html#team">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>Redes sociales</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">LinkedIn</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>Enlaces adicionales</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Términos y condiciones</a></li>
+            <li><a href="#">Política de privacidad</a></li>
+            <li><a href="#">Preguntas frecuentes</a></li>
+            <li><a href="Documentación.html">Ayuda</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/0b68d91fd6.js" crossorigin="anonymous"></script>
+  <script src="assets/js/formulario.js"></script>
+  <script src="./assets/js/CambiarColor.js"></script>
+  <script src="./assets/js/calendario.js"></script>
+  <script src="./assets/js/boton1.js"></script>
+
+</body>
+
+</html>

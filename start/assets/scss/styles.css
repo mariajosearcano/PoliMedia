@@ -1,0 +1,10 @@
+html {
+  --l0: calc(100% - 1px), #fff;
+  --l1: 0% 25%, #0000 0% 50%;
+  --g: repeating-conic-gradient(#fff var(--l1));
+  background: var(--g), radial-gradient(closest-side, transparent var(--l0)), linear-gradient(90deg, rgba(0, 0, 0, 0) 0 25%, currentcolor 0 75%, #d6af46 0), repeating-conic-gradient(#88b6b4 var(--l1)), var(--g), radial-gradient(closest-side, currentcolor var(--l0));
+  background-size: 9.375em 9.375em, 4.6875em 4.6875em, 9.375em, 18.75em 18.75em, 0.75em 0.75em, 0.375em 0.375em;
+  color: #31334a;
+}
+
+/*# sourceMappingURL=styles.css.map */
