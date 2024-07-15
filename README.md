@@ -1,7 +1,7 @@
 # PoliMedia
 
 By:
-- Mariana Montoya Sepulveda
+- [nigthsky18](https://github.com/nigthsky18)
 - Jaziel David Garcia Ramirez
 - Juan Camilo Alzate Bedoya
-- Maria Jose Arcila Cano
+- [mariajosearcano](https://github.com/mariajosearcano)
